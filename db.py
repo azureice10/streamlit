@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv('data/day.csv')
+df = pd.read_csv('day.csv')
 
 # Mapping label untuk weather situation
 weather_mapping = {
