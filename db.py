@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 # Load dataset
 df = pd.read_csv('day.csv')
 
+# atur tema
+sns.set_theme(style="dark")
+
 # Mapping label untuk weather situation
 weather_mapping = {
     1: 'Clear, Few clouds',
