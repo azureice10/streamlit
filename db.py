@@ -4,7 +4,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv('day.csv')
+@st.cache
+def load_data():
+    df = pd.read_csv('data/day.csv')
+    return df
+
+df = load_data()
+
 
 # atur tema
 sns.set_theme(style="dark")
