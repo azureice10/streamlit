@@ -28,7 +28,7 @@ df['weathersit'] = df['weathersit'].map(weather_mapping)
 
 
 # Judul dashboard
-st.title('Bike Rental Data Analysis Dashboard')
+st.title('Hello World')
 
 # Tampilkan data frame jika dipilih
 if st.checkbox('Show Raw Data'):
