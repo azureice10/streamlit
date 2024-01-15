@@ -26,8 +26,6 @@ weather_mapping = {
 # Mengganti nilai weathersit dengan label yang baru
 df['weathersit'] = df['weathersit'].map(weather_mapping)
 
-# Setel halaman Streamlit
-st.set_page_config(page_title='Bike Rental Dashboard', page_icon=':bike:')
 
 # Judul dashboard
 st.title('Bike Rental Data Analysis Dashboard')
